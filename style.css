@@ -1,0 +1,171 @@
+body {
+    background-color: #a80dc080;
+}
+
+#header {
+    text-align: center;
+    margin: 0rem
+}
+
+#header-img {
+  display: block;
+  margin-right: 40%; 
+  width:10%;
+}
+
+#nav-bar {
+    display: block;
+  margin-left: 80%;
+  top: 0px
+}
+
+#h1 {
+    text-align: center;
+    font-size:100px;
+    font-style:unset;
+    top:0px
+  
+}
+
+#hero {
+    width: 2355px;
+    height: 533px;
+    border-radius: 20px;
+}
+
+#nav {
+    background-color: #db1765;
+    border-radius: 20px;
+}
+
+
+
+#image {
+    width: 971px;
+    height: 500px;
+}
+
+#ab {
+    text-align: center;
+}
+
+#pr {
+    text-align: center;
+}
+
+#se {
+    text-align: center;
+}
+
+#about {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:1rem
+}
+
+#history {
+    font-size: 30px;
+}
+
+#maintenance {
+    width: 500px;
+    height: 500px;
+}
+
+#naturale {
+    width: 500px;
+    height: 500px;
+}
+
+#Superior {
+    width: 500px;
+    height: 500px;
+}
+
+#products {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:1rem
+}
+
+#services {
+    display: flex;
+    height:100vh;
+    grid-gap:17rem
+
+}
+ @media only screen and (max-width:768px){
+    #header-img {
+        display: block;
+        margin-right: 40%; 
+        width:10%;
+      }
+
+      #header {
+        text-align: center;
+        margin: 0rem
+    }
+    #nav-bar {
+        display: block;
+      margin-left: 80%;
+      top: 0px
+    }
+    #hero {
+        width: 2355px;
+        height: 533px;
+        border-radius: 20px;
+    }
+    #image {
+        width: 971px;
+        height: 500px;
+    }
+    #ab {
+        text-align: center;
+    }
+    
+    #pr {
+        text-align: center;
+    }
+    
+    #se {
+        text-align: center;
+    }
+    
+    #about {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:1rem
+    }
+    
+    #history {
+        font-size: 30px;
+    }
+    
+    #maintenance {
+        width: 500px;
+        height: 500px;
+    }
+    
+    #naturale {
+        width: 500px;
+        height: 500px;
+    }
+    
+    #Superior {
+        width: 500px;
+        height: 500px;
+    }
+    
+    #products {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap:1rem
+    }
+    
+    #services {
+        display: flex;
+        height:100vh;
+        grid-gap:17rem
+    
+    }
+ }
